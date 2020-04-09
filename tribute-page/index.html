@@ -4,7 +4,7 @@
 
         @font-face {
             font-family: 'rick-morty';
-            src: url('assets/fonts/rick_and_morty.ttf')
+            src: url('https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/fonts/rick_and_morty.ttf')
         }
 
         body {
@@ -26,15 +26,20 @@
             background-position: 50% 50%;
             background-size: cover;
         }
-        
+
         .container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, 300px);
-            grid-template-rows: 1fr;
-            justify-content: space-evenly;
-            grid-row-gap: 70px;   
-            grid-column-gap: 50px;
-            margin: 50px 200px 200px 200px;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 450px);
+                grid-template-rows: 1fr;
+                justify-content: space-evenly;
+                grid-row-gap: 70px;   
+                grid-column-gap: 50px;
+                margin: 50px 200px 200px 200px;
+            }
+
+        .character-img {
+            width: 450px;
+            height: 450px;
         }
 
         .character {
@@ -51,7 +56,7 @@
         } 
 
         .character-description {
-            font-size: 20px;
+            font-size: 30px;
             text-align: left;
             margin: 0px 20px 20px 20px;
         }
@@ -59,14 +64,14 @@
         h1 {
             font-family: 'rick-morty';
             text-align: center;
-            font-size: 80px;
+            font-size: 110px;
             color: #381C10;
         }
 
         p {
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
-            font-size: 25px;
+            font-size: 35px;
             color: #381C10;
         }
 
@@ -78,7 +83,7 @@
 
         h4 {
             font-family: 'rick-morty';
-            font-size: 35px;
+            font-size: 50px;
             margin: 20px 20px 0px 20px;
             color: #381C10;
         }
@@ -88,8 +93,44 @@
             font-family: "ROBOTO";
             text-transform: uppercase;
             text-decoration: unset;
-            font-size: 20px;
+            font-size: 25px;
             margin: 20px 20px 20px 20px;
+        }
+
+        @media (min-width: 800px) {
+            
+            .container {
+                grid-template-columns: repeat(auto-fit, 375px);
+            }
+
+            .character-img {
+                width: 375px;
+                height: 375px;
+            }
+
+            .character-description {
+                font-size: 25px;
+            }
+
+            .read-link {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 40px;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            
+            .container {
+                grid-template-columns: repeat(auto-fit, 300px);
+            }
+
+            .character-img {
+                width: 300px;
+                height: 300px;
+            }
         }
   
     </style>
@@ -113,7 +154,7 @@
 
         <div class="container">
             <div class="character">
-                <img class="character-img" src="assets/images/rick.png"/>
+                <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/rick.png"/>
                 <div class="character-details">
                     <h4>Rick Sanchez</h4>
                     <p class="character-description">Um cientista alcoólatra de 70 anos extremamente inteligente que é capaz de construir máquinas...</p>
@@ -122,7 +163,7 @@
             </div>
 
             <div class="character">
-                <img class="character-img" src="assets/images/morty.png"/>
+                <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/morty.png"/>
                 <div class="character-details">
                     <h4>Morty Smith</h4>
                     <p class="character-description">Neto facilmente influenciável e com dificuldades escolares de 14 anos de Rick, parece ser a quem este demonstra...</p>
@@ -130,7 +171,7 @@
                 </div>
             </div>
             <div class="character">
-                <img class="character-img" src="assets/images/jerry.png"/>
+                <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/jerry.png"/>
                 <div class="character-details">
                     <h4>Jerry Smith</h4>
                     <p class="character-description">Pai inseguro de Summer e Morty, 35 anos que desaprova fortemente a influência de Rick sobre...</p>
@@ -138,7 +179,7 @@
                 </div>
             </div>
             <div class="character">
-                <img class="character-img" src="assets/images/beth.png"/>
+                <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/beth.png"/>
                 <div class="character-details">
                     <h4>Beth Smith</h4>
                     <p class="character-description">É filha de Rick, esposa de Jerry e mãe de Summer e Morty, aos 34. Como seu pai, ela bebe muito...</p>
@@ -146,7 +187,7 @@
                 </div>
             </div>
             <div class="character">
-                <img class="character-img" src="assets/images/summer.png"/>
+                <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/summer.png"/>
                 <div class="character-details">
                     <h4>Summer Smith</h4>
                     <p class="character-description">Tem 17 anos e é a irmã mais velha de Morty, uma adolescente convencional muitas vezes superficial...</p>
