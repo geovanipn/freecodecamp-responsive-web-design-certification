@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'rick-morty';
+    src: url('https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/fonts/rick_and_morty.ttf')
+}
+
+body {
+    background-color: #FAF2C1;
+}
+
+header {
+    height: 800px;
+}
+
+.header-image {
+    float: left;
+    clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
+    height: 100%;
+    width: 100%;
+    background-image: url("https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/header-rick-morty.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+    grid-row-gap: 70px;   
+    grid-column-gap: 50px;
+    margin: 50px 200px 200px 200px;
+}
+
+.character-img {
+    width: 500px;
+    height: 500px;
+    border-bottom: 2px solid #381C10;
+}
+
+.character {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #381C10;
+}
+
+.character-details {
+    height: auto;
+    width: 100%;
+} 
+
+.character-description {
+    font-size: 35px;
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'rick-morty';
+    text-align: center;
+    font-size: 125px;
+    color: #381C10;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    color: #381C10;
+}
+
+.slogan {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-family: 'rick-morty';
+    font-size: 60px;
+    margin: 0px;
+    padding: 20px 0px 0px 20px;
+    color: #381C10;
+}
+
+.read-link {
+    color: #4c69af;
+    font-family: "ROBOTO";
+    text-transform: uppercase;
+    text-decoration: unset;
+    font-size: 25px;
+    margin: 20px 20px 20px 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .container {
+        grid-template-columns: repeat(auto-fit, 375px);
+    }
+
+    .character-img {
+        width: 375px;
+        height: 375px;
+    }
+
+    .character-description {
+        font-size: 25px;
+    }
+
+    .read-link {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .container {
+        grid-template-columns: repeat(auto-fit, 300px);
+    }
+
+    .character-img {
+        width: 300px;
+        height: 300px;
+    }
+}
