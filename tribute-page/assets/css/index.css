@@ -5,6 +5,7 @@
 
 body {
     background-color: #FAF2C1;
+    text-align: center;
 }
 
 header {
@@ -96,30 +97,23 @@ h4 {
     margin: 20px 20px 20px 20px;
 }
 
-footer {
-    text-align: center; 
-    font-family: "ROBOTO", sans-serif; 
-    height: 42px;
-    padding: 5px;
-    color: #381C10;
-    width: 180px;
-    margin: auto;
-    border-style: solid;
-    border-radius: 25px;
-    
-} 
-
-.github-icon {
-    position: relative;
-    top: 5px;
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.github {
-    font-size: 25px;
+#image {
+    max-width: 100%;
+    padding: 40px 0px 10px 0px;
     position: relative;
-    bottom: 4px;
-    color: #381C10;
-    text-decoration: unset;
+    top: 10px;
+}
+
+#img-caption {
+    opacity: 0;
 }
 
 @media only screen and (min-width: 1000px) {

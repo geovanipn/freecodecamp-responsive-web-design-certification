@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 
-<html>
-
+<html lang="pt-BR">
     <head>
+        <meta charset="UTF-8" /> 
+        
         <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     </head>    
 
     <header>
         <div class="header-image">
-
+            
         </div>
     </header>
 
     <body id="main">
 
-        <h1>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <h1 id="title">
             Rick and Morty
         </h1>
         
         <div class="slogan">
-            <p>Viver é arriscar tudo. Caso contrário voce é apenas um pedaço inerte de moléculas montadas aleatoriamente à deriva onde o universo te sopra.</p>
+            <p id="tribute-info">Viver é arriscar tudo. Caso contrário voce é apenas um pedaço inerte de moléculas montadas aleatoriamente à deriva onde o universo te sopra.</p>
         </div>        
         
-
         <div class="container">
+
             <div class="character">
                 <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/rick.png"/>
                 <div class="character-details">
@@ -31,7 +34,7 @@
                         <h4>Rick Sanchez</h4>
                     </div>
                     <p class="character-description">Um cientista alcoólatra de 70 anos extremamente inteligente que é capaz de construir máquinas...</p>
-                    <a href="https://pt.wikipedia.org/wiki/Rick_and_Morty" class="read-link" target="_blank">Read More</a>
+                    <a id="tribute-link" href="https://pt.wikipedia.org/wiki/Rick_and_Morty" class="read-link" target="_blank">Read More</a>
                 </div>
             </div>
 
@@ -68,13 +71,16 @@
                 </div>
             </div>
         </div>
+        
     </body> 
 
     <footer>
-        <div>
-            <img class="github-icon" src="./assets/images/GitHub-Mark-32px.png"/>
-            <a class="github" href="https://github.com/geovanipn" target="_blank">geovanipn</a>
-        </div>
+        <a href="https://github.com/geovanipn" target="_blank">
+            <div id="img-div">
+                    <img id="image" src="assets/images/GitHub-Mark-32px.png"/>
+                <figcaption id="img-caption">geovanipn</figcaption>
+            </div>
+        </a>
     </footer>
 
 </html>
