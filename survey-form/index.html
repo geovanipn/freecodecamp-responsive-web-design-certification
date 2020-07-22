@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    </head>
+
+    <header>
+        
+    </header>
+
+    <body id="main">
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <br/>
+
+        <div class="img-div">
+            <img class="freeCodeCamp-logo" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/survey-form/assets/images/fcc_secondary_large.png" alt="freeCodeCamp logo"/>
+        </div>
+
+        <h1 id="title" class="center-text">Survey Form</h1>
+
+        <form id="survey-form">
+            <p id="description" class="center-text">Pesquisa sobre sua experiência com a plataforma do freeCodeCamp</p>
+            <div id="container-form">
+                <div class="field">
+                    <div>
+                        <label id="name-label" for="name">Nome</label>
+                    </div>
+                    <div>
+                        <input id="name" type="text" placeholder="Informe seu nome" required/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div>
+                        <label id="email-label" for="email">E-mail</label>
+                    </div>
+                    <div>
+                        <input id="email" type="email" placeholder="email@email.com" required/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div>
+                        <label id="number-label" for="number">Idade</label>
+                    </div>
+                    <div>
+                        <input id="number" type="number" min="0" max="110" required placeholder="20"/>
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <div>
+                        <label id="dropdown-label" for="dropdown">Sexo</label>
+                    </div>
+                    <div>
+                        <select id="dropdown">
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div>
+                        <label>Fumante</label>
+                    </div>
+                    <div class="flex">
+                        <label for="smoker-yes">Sim</label>
+                        <input id="smoker-yes" type="radio" name="smoker" value="Y">
+                        <div class="space"></div>
+                        <label for="smoker-no">Não</label>
+                        <input id="smoker-no" type="radio" name="smoker" value="N">
+                    </div>
+                </div>
+
+                <br/>
+
+                <div class="field">
+                    <div>
+                        <label>Quais cursos do freeCodeCamp você já fez?</label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="flex">
+                        <input id="rwd" type="checkbox" value="RWD">
+                        <label id="rwd-label" for="rwd">Responsive Web Design</label>
+                    </div>
+                    <div class="flex">
+                        <input id="javascript" type="checkbox" value="JS">
+                        <label id="javascript-label" for="javascript">JavaScript Algorithms and Data Structures</label>
+                    </div>
+                    <div class="flex">
+                        <input id="front-end" type="checkbox" value="FTE">
+                        <label id="front-end-label" for="front-end">Front End Libraries</label>
+                    </div>
+                    <div class="flex">
+                        <input id="data" type="checkbox" value="DATA">
+                        <label id="data-label" for="data">Data Visualization</label>
+                    </div>
+                    <div class="flex">
+                        <input id="api-microservices" type="checkbox" value="APIM">
+                        <label id="api-microservices-label" for="api-microservices">APIs and Microservices</label>
+                    </div>
+                    <div class="flex">
+                        <input id="quality-assurance" type="checkbox" value="QA">
+                        <label id="quality-assurance-label" for="quality-assurance">Quality Assurance</label>
+                    </div>
+                    <div class="flex">
+                        <input id="information-security" type="checkbox" value="IS">
+                        <label id="information-security-label" for="information-security">Information Security</label>
+                    </div>
+                </div>
+
+                <br/>
+
+                <div class="field">
+                    <div>
+                        <label id="about-fcc-label" for="about-fcc">O que você acha dos cursos do freeCodeCamp?</label>
+                    </div>
+                    <div>
+                        <textarea class="text-area-size" id="about-fcc"></textarea>
+                    </div>
+                </div>
+                <br/>
+                <div class="field">
+                    <div>
+                        <label id="suggestion-label" for="suggestion">Alguma sugestão ou comentário adicional?</label>
+                    </div>
+                    <div>
+                        <textarea class="text-area-size" id="suggestion"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="right-text">
+                        <button class="submit" id="submit" type="submit">Enviar</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+        
+    </body> 
+
+    <footer>
+        <div class="img-div-footer">
+            <a href="https://github.com/geovanipn" target="_blank">
+                <img class="github-logo" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/survey-form/assets/images/github-logo.png" alt="github logo"/>
+            </a>
+        </div>
+    </footer>
+
+</html>

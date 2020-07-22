@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body, html{
+    font-family: 'Roboto Mono', sans-serif;
+    background: #F5F6F7;
+}
+
+#container-form {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+label {
+    align-self: center;
+    font-size: medium;
+}
+
+p {
+    font-size: x-large;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, select {
+    height: 24px;
+    width: 100%;
+}
+
+#email {
+    width: 50%;
+}
+
+#dropdown {
+    width: 20%;
+}
+
+#number {
+    width: 10%;
+}
+
+input[type=radio] {
+    height: auto;
+    width: auto;
+    align-self: center;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    min-width: 18px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.field {
+    padding: 5px;
+}
+
+.field div {
+    width: 80%;
+    margin: auto;
+}
+
+.space {
+    margin: 0 !important;
+    width: 10px !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-area-size {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+}
+
+.submit {
+    padding: 5px 15px 5px 15px;
+    font-size: medium;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.img-div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 0 0;
+}
+
+.freeCodeCamp-logo {
+    width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-logo {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 980px) {
+
+    label {
+        font-size: x-large;
+    }
+
+    #container-form {
+        width: 90%;
+    }
+
+    p {
+        width: 90%;
+    }
+
+    input, select {
+        height: 30px;
+    }
+
+    .field div {
+        width: 90%;
+    }
+
+    .submit {
+        font-size: x-large;
+    }
+}

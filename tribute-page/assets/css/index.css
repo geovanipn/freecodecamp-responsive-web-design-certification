@@ -18,7 +18,6 @@ header {
     height: 100%;
     width: 100%;
     background-image: url("https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/header-rick-morty.png");
-    background-position: center;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -56,12 +55,12 @@ header {
 .character-description {
     font-size: 35px;
     text-align: left;
-    margin: 0px;
+    margin: 0;
     padding: 20px;
 }
 
 h1 {
-    font-family: 'rick-morty';
+    font-family: 'rick-morty', serif;
     text-align: center;
     font-size: 125px;
     color: #381C10;
@@ -81,16 +80,16 @@ p {
 }
 
 h4 {
-    font-family: 'rick-morty';
+    font-family: 'rick-morty', serif;
     font-size: 60px;
-    margin: 0px;
-    padding: 20px 0px 0px 20px;
+    margin: 0;
+    padding: 20px 0 0 20px;
     color: #381C10;
 }
 
 .read-link {
     color: #4c69af;
-    font-family: "ROBOTO";
+    font-family: "ROBOTO", serif;
     text-transform: uppercase;
     text-decoration: unset;
     font-size: 25px;
@@ -107,7 +106,7 @@ h4 {
 
 #image {
     max-width: 100%;
-    padding: 40px 0px 10px 0px;
+    padding: 40px 0 10px 0;
     position: relative;
     top: 10px;
 }
