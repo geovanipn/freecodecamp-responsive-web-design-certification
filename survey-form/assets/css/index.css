@@ -5,36 +5,12 @@ body, html{
     background: #F5F6F7;
 }
 
-#container-form {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    border: 1px solid;
-}
-
-label {
-    align-self: center;
-    font-size: medium;
-}
-
-p {
-    font-size: x-large;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-input, select {
-    height: 24px;
-    width: 100%;
-}
-
 #email {
     width: 50%;
 }
 
 #dropdown {
-    width: 20%;
+    width: 25%;
 }
 
 #number {
@@ -121,29 +97,65 @@ input[type=checkbox] {
     margin-right: auto;
 }
 
+#container-form {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+label {
+    align-self: center;
+    font-size: medium;
+}
+
+p {
+    font-size: x-large;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, select {
+    height: 24px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 1080px) {
 
     label {
-        font-size: x-large;
+        font-size: xx-large;
     }
 
     #container-form {
-        width: 90%;
+        width: 80%;
     }
 
     p {
-        width: 90%;
+        width: 80%;
+        font-size: xx-large;
     }
 
     input, select {
-        height: 30px;
+        height: 45px;
+        font-size: x-large;
     }
 
-    .field div {
-        width: 90%;
+    input::-webkit-input-placeholder {
+        font-size: x-large;
+    }
+
+    input[type=radio] {
+        height: 24px;
+        width: 24px;
+    }
+
+    input[type=checkbox] {
+        width: 30px;
+        min-width: 30px;
     }
 
     .submit {
-        font-size: x-large;
+        font-size: xx-large;
     }
 }
