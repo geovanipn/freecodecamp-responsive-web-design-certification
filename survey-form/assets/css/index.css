@@ -121,7 +121,7 @@ input[type=checkbox] {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1080px) {
 
     label {
         font-size: x-large;
