@@ -1,0 +1,149 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title {
+    padding: 20px 10px 50px 10px;
+    font-size: 45px;
+    color: #315567;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1F2B4E;
+    text-align: center;
+    z-index: 10000;
+}
+
+.nav-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.navbar .nav-link:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar img {
+    padding: 8px 0 0 30px;
+    float: left;
+}
+
+body{
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.divorcio {
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.divorcio .text {
+    width: 50%;
+    align-self: center;
+}
+
+.divorcio .text p {
+    font-size: 24px;
+    color: #315567;
+}
+
+.div-img-divorcio {
+    width: 50%;
+}
+
+.img-divorcio {
+    width: 250px;
+    min-width: 200px;
+}
+
+.img-whats {
+    width: 64px;
+    height: 64px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 0 10px 0;
+    line-height: normal;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif bold;
+    line-height: 150%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.div-video {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.div-video h2 {
+    color: #1F2B4E;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#servicos {
+    background: #f2f2f2;
+}
+
+#contato {
+    background: #f2f2f2;
+}
+
+#quem-somos {
+    background: #F6F6F6;
+}
+
+#atendimento {
+    background: #F6F6F6;
+}
+
+.email-input {
+    width: 220px;
+    height: 26px;
+}
+
+.button-submit {
+    width: 100px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1080px) {
+
+}
