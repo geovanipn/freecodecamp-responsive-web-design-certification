@@ -2,42 +2,6 @@ body {
   background: #F1F0F5;
 }
 
-@media only screen and (max-width: 500px) {
-    .site-header {
-        padding-top: 20px !important;
-    }
-
-    .site-header .site-title {
-        font-size: 1.3rem !important;
-    }
-
-    .header-div-item {
-        text-align: left !important;
-        line-height: 1;
-    }
-
-    .social-link {
-        font-size: 0.8rem;
-    }
-
-    .svg-menu-icon {
-        width: 18px !important;
-        height: 18px !important;
-    }
-
-    .header-div-items {
-        padding-top: 3px;
-    }
-
-    .contato-button {
-        padding: 15px 30px 15px 30px !important;
-    }
-
-    .div-atendimento-online {
-        padding-top: 110px !important;
-    }
-}
-
 .site-header {
     line-height: 1.6;
     align-self: center;
@@ -357,4 +321,102 @@ header a:hover {
     height: 20px;
     fill:#846C5A;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 500px) {
+    .site-header {
+        padding-top: 20px;
+    }
+
+    .site-header .site-title {
+        font-size: 1.3rem;
+    }
+
+    .header-div-item {
+        text-align: left;
+        line-height: 1;
+    }
+
+    .social-link {
+        font-size: 0.8rem;
+    }
+
+    .svg-menu-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-div-items {
+        padding-top: 3px;
+    }
+
+    .contato-button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .div-atendimento-online {
+        padding-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .site-header {
+        padding-top: 20px;
+    }
+
+    .site-header .site-title {
+        font-size: 1.1rem;
+    }
+
+    .header-div-item {
+        text-align: left;
+        line-height: 1;
+    }
+
+    .social-link {
+        font-size: 0.8rem;
+    }
+
+    .svg-menu-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-div-items {
+        padding-top: 3px;
+    }
+
+    .contato-button {
+        padding: 15px 30px 15px 30px;
+    }
+
+    .div-atendimento-online {
+        padding-top: 110px;
+    }
+
+    .grid-pensao-alimenticia {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        line-height: 1.4rem;
+    }
+
+    .avatar {
+        width: 260px;
+        height: 260px;
+    }
+
+    .avatar-back {
+        width: 260px;
+        height: 260px;
+    }
+
+    .grid-advogada {
+        padding-left: 0;
+        padding-right: 0;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .section-pensao-alimenticia {
+        font-size: 1.5rem;
+    }
 }
