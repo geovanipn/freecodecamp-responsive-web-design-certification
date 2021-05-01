@@ -1,0 +1,67 @@
+.main-section {
+
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+}
+
+#navbar header {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#navbar ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#navbar ul li {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    font-weight: normal;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 110px;
+    display: block;
+}
+
+main {
+    padding: 25px;
+}
+
+main section article {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+main section header {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+    main section article {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+}
