@@ -1,0 +1,108 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    z-index: 10000;
+}
+
+.nav-link {
+    float: right;
+    display: block;
+    color: forestgreen;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.navbar .nav-link:hover {
+    background: #ddd;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        margin-top: 49px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.about h1 {
+    color: white;
+    font-size: 100px;
+}
+.about p {
+    color: forestgreen;
+    font-size: 50px;
+}
+
+.projects {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #c2c8cd 0%, #959e98 100%);
+}
+
+.projects h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.grid-projects {
+    padding: 30px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    line-height: 1.4rem;
+}
+
+.project {
+    box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: inherit;
+    background-color: whitesmoke;
+}
+
+.project-tile {
+    font-size: 2rem;
+    padding-top: 20px;
+    color: white;
+}
+
+.project:hover .project-tile{
+    color: forestgreen;
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    object-fit: cover;
+}
